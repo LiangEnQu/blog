@@ -23,6 +23,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:quliangen/quliangen.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:LiangEnQu/blog.git master:gh-pages
+git push -f "https://${github_token}@github.com/LiangEnQu/blog.git" master:gh-pages
 
 cd -
