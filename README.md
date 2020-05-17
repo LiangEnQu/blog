@@ -7,13 +7,13 @@ yarn
 
 2.启动本地server
 ```
-yarn run serve
+yarn serve
 ```
 3.构建
 ```
-yarn run build
+yarn build
 ```
 4.本地发布deploy, push到GitHub Travis-ci自动发布。
 ```
-yarn run deploy
+yarn deploy
 ```
